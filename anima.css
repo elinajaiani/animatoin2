@@ -8,7 +8,7 @@ html {
   background-color:#7a75ac;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 120;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 h1 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 0;
-  color: #3169ad;
+  color: rgb(124, 174, 209);
 }
 
 h2 {
@@ -46,20 +46,20 @@ h2 {
 
 .slide-in {
   opacity:0;
-  transition:all .5s;
+  transition:all .10s;
 }
 
 .align-left.slide-in {
-  @include transition(-30%, 0.95);
+  @include transition(-30%, 10);
 }
 
 .align-right.slide-in {
-  @include transition(30%, 0.95);
+  @include transition(30%, 10);
 }
 
 .slide-in.active {
   opacity:1;
-  @include transition(0%, 1);
+  @include transition(30%, 10);
 }
 
 p {
